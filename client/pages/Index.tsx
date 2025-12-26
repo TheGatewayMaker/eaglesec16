@@ -367,13 +367,13 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center">
             <Link
               to="/contact"
-              className="bg-accent text-accent-foreground px-14 py-7 font-black text-lg rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
+              className="bg-accent text-accent-foreground px-8 md:px-14 py-4 md:py-7 font-black text-base md:text-lg rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block w-full sm:w-auto text-center"
             >
               Start Your Consultation
             </Link>
             <Link
               to="/services"
-              className="border-3 border-primary text-primary px-14 py-7 font-black text-lg rounded-xl hover:bg-primary hover:text-primary-foreground transition-all duration-300 inline-block"
+              className="border-3 border-primary text-primary px-8 md:px-14 py-4 md:py-7 font-black text-base md:text-lg rounded-xl hover:bg-primary hover:text-primary-foreground transition-all duration-300 inline-block w-full sm:w-auto text-center"
             >
               View Services
             </Link>
@@ -382,16 +382,16 @@ export default function Home() {
       </section>
 
       {/* Location Section with Google Maps */}
-      <section className="py-32 md:py-48 bg-gradient-to-b from-white to-slate-50">
+      <section className="py-20 md:py-48 bg-gradient-to-b from-white to-slate-50">
         <div className="container mx-auto px-6">
-          <div className="mb-24">
-            <div className="inline-flex items-center gap-4 mb-8">
-              <div className="w-2 h-12 bg-accent rounded-full"></div>
-              <h2 className="text-5xl md:text-6xl font-black text-primary">
+          <div className="mb-16 md:mb-24">
+            <div className="flex items-start gap-3 md:gap-4 mb-6 md:mb-8">
+              <div className="w-1.5 md:w-2 h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
+              <h2 className="text-3xl md:text-6xl font-black text-primary leading-tight">
                 Our Head Office Location
               </h2>
             </div>
-            <p className="text-xl font-bold text-foreground ml-6 max-w-2xl">
+            <p className="text-sm md:text-xl font-bold text-slate-700 ml-6 md:ml-8 max-w-2xl leading-relaxed">
               Visit us at our Islamabad headquarters for consultations and inquiries
             </p>
           </div>
