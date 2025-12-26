@@ -386,13 +386,13 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 md:py-48 bg-gradient-to-b from-slate-850 to-slate-950">
+      <section className="py-20 md:py-48 bg-background transition-colors duration-300">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-7xl font-black text-white mb-8 md:mb-10 leading-tight">
+          <h2 className="text-3xl md:text-7xl font-black text-foreground mb-8 md:mb-10 leading-tight">
             Ready to Protect <br className="hidden md:block" />
             What Matters?
           </h2>
-          <p className="text-base md:text-2xl font-bold text-gray-300 mb-12 md:mb-16 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base md:text-2xl font-bold text-muted-foreground mb-12 md:mb-16 max-w-3xl mx-auto leading-relaxed">
             Contact our security experts today for a personalized consultation
             and secure your peace of mind
           </p>
