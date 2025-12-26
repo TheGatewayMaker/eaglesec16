@@ -86,9 +86,9 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontSize: {
-        h1: ["3.5rem", { lineHeight: "1.1", fontWeight: "800" }],
-        h2: ["2.5rem", { lineHeight: "1.2", fontWeight: "800" }],
-        h3: ["1.875rem", { lineHeight: "1.3", fontWeight: "700" }],
+        h1: ["5rem", { lineHeight: "1", fontWeight: "900" }],
+        h2: ["3.75rem", { lineHeight: "1.1", fontWeight: "900" }],
+        h3: ["2.5rem", { lineHeight: "1.2", fontWeight: "900" }],
       },
     },
   },
