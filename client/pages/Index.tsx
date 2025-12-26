@@ -180,7 +180,7 @@ export default function Home() {
                   Mobile Escorts
                 </h3>
                 <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
-                  Professional protection during movement and transportation
+                  Our mobile escort teams provide seamless protection during transit and travel. We offer route planning, threat assessment, and coordinated security response for safe and secure movement, whether for business travel, executive commute, or convoy operations.
                 </p>
               </div>
             </div>
