@@ -74,23 +74,23 @@ export default function Services() {
           </div>
 
           {/* Bodyguards */}
-          <div className="mb-20 pb-12 border-b border-slate-200">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-              <div className="overflow-hidden rounded-xl shadow-lg h-96 order-2 md:order-1">
+          <div className="mb-16 md:mb-20 pb-12 md:pb-16 border-b border-slate-700">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
+              <div className="overflow-hidden rounded-xl shadow-lg h-64 md:h-96 order-2 md:order-1">
                 <img
-                  src="https://images.pexels.com/photos/3706640/pexels-photo-3706640.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src="https://images.pexels.com/photos/7714972/pexels-photo-7714972.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Elite security professional in uniform"
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                 />
               </div>
               <div className="order-1 md:order-2">
                 <div className="flex items-center gap-3 mb-6">
-                  <Users className="w-12 h-12 text-accent" />
-                  <h2 className="text-4xl font-black text-slate-900">
+                  <Users className="w-10 md:w-12 h-10 md:h-12 text-accent flex-shrink-0" />
+                  <h2 className="text-3xl md:text-4xl font-black text-white">
                     Bodyguards
                   </h2>
                 </div>
-                <p className="text-slate-700 leading-relaxed mb-8 text-lg font-bold">
+                <p className="text-gray-300 leading-relaxed mb-8 text-base md:text-lg font-bold">
                   Our bodyguards are mainly drawn from Special Service Group
                   (SSG) of Pakistan Army, an elite force trained to use all
                   available means to survive the worst security hazards.
@@ -98,25 +98,25 @@ export default function Services() {
                 <ul className="space-y-4">
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-bold">
+                    <span className="text-gray-300 font-bold text-sm md:text-base">
                       Elite personnel from Special Service Group (SSG)
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-bold">
+                    <span className="text-gray-300 font-bold text-sm md:text-base">
                       Cream of handpicked men dedicated to difficult missions
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-bold">
+                    <span className="text-gray-300 font-bold text-sm md:text-base">
                       Advanced threat assessment and response training
                     </span>
                   </li>
                   <li className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                    <span className="text-slate-700 font-bold">
+                    <span className="text-gray-300 font-bold text-sm md:text-base">
                       Protection in high-risk security scenarios
                     </span>
                   </li>
