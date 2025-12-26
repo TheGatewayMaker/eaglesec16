@@ -39,6 +39,50 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Vision & Mission Section */}
+      <section className="py-20 md:py-28 bg-slate-50">
+        <div className="container mx-auto px-6">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-h2 text-primary text-center mb-12 font-bold">
+              Established Since 1992
+            </h2>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-8 rounded-lg border border-border">
+                <h3 className="text-h3 font-bold text-primary mb-4">Our Vision</h3>
+                <p className="text-foreground leading-relaxed">
+                  Vigilance by the dedicated and quality conscious guards is the ultimate
+                  answer to security.
+                </p>
+              </div>
+
+              <div className="bg-white p-8 rounded-lg border border-border">
+                <h3 className="text-h3 font-bold text-primary mb-4">Our Mission</h3>
+                <p className="text-foreground leading-relaxed">
+                  Being managed by competent ex-army officers with wide experience in
+                  designing and implementing effective security systems to combat prevailing
+                  threats, we aim to select and deploy experienced, well-trained personnel.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-lg border border-border">
+              <h3 className="text-h3 font-bold text-primary mb-4">Our Background</h3>
+              <p className="text-foreground leading-relaxed mb-4">
+                Eagle Security Guards was established in 1992. The company has the NOC to
+                operate all over Pakistan including AJK. Today the company is one of the
+                leading private security companies in Pakistan upholding its credible name
+                to provide most reliable, efficient and cost effective guarding services.
+              </p>
+              <p className="text-foreground leading-relaxed">
+                Our head office is located in Islamabad with regional/branch offices in
+                almost all major cities of Pakistan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Core Services Overview */}
       <section className="py-20 md:py-28 bg-white">
         <div className="container mx-auto px-6">
