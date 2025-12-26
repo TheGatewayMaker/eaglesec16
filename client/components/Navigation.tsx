@@ -8,14 +8,17 @@ export default function Navigation() {
           {/* Logo and Company Name */}
           <Link
             to="/"
-            className="flex items-center gap-2 font-black text-3xl text-primary hover:opacity-90 transition duration-300"
+            className="flex items-center gap-2 font-black text-primary hover:opacity-90 transition duration-300"
           >
             <img
               src="https://i.ibb.co/s954vR34/eaglesecurityoriginallogo-1-copy.png"
               alt="Eagle Security Guards Logo"
-              className="h-10 w-10"
+              className="h-14 w-14"
             />
-            <span>Eagle</span>
+            <div className="flex flex-col">
+              <span className="text-2xl leading-none">Eagle</span>
+              <span className="text-xs font-black tracking-widest opacity-70">SECURITY GUARDS</span>
+            </div>
           </Link>
 
           {/* Navigation Links */}
