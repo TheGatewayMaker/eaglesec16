@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <img
-                src="https://i.ibb.co/2YhWk1hj/eaglesecurityoriginallogo.png"
+                src="https://i.ibb.co/s954vR34/eaglesecurityoriginallogo-1-copy.png"
                 alt="Eagle Security Guards Logo"
                 className="h-12 w-12"
               />
