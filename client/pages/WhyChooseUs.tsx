@@ -99,9 +99,9 @@ export default function WhyChooseUs() {
       </section>
 
       {/* Trusted By Section */}
-      <section className="py-20 md:py-28 bg-slate-50">
+      <section className="py-20 md:py-28 bg-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-h2 text-primary text-center mb-16 font-bold">
+          <h2 className="text-4xl font-black text-slate-900 text-center mb-16">
             Trusted by Pakistan's Leading Organizations
           </h2>
 
@@ -118,14 +118,14 @@ export default function WhyChooseUs() {
             ].map((client) => (
               <div
                 key={client}
-                className="bg-white p-6 rounded-lg border border-border text-center"
+                className="bg-gradient-to-br from-slate-50 to-white p-8 rounded-xl border-2 border-slate-200 shadow-sm hover:shadow-md hover:border-accent transition-all duration-300 text-center"
               >
-                <p className="font-semibold text-foreground">{client}</p>
+                <p className="font-black text-slate-900">{client}</p>
               </div>
             ))}
           </div>
 
-          <p className="text-center text-muted-foreground text-lg max-w-2xl mx-auto">
+          <p className="text-center text-slate-700 text-lg font-bold max-w-2xl mx-auto">
             Government agencies, financial institutions, media companies, and
             multinational corporations depend on Eagle Security Guards for their
             safety and security needs.
