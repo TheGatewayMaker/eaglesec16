@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 export default function Services() {
   return (
-    <div className="bg-background">
+    <div className="bg-white">
       {/* Hero Section */}
-      <section className="bg-primary text-primary-foreground py-16 md:py-24">
+      <section className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white py-24 md:py-32">
         <div className="container mx-auto px-6">
-          <h1 className="text-h1 font-bold mb-6">Our Security Services</h1>
-          <p className="text-xl opacity-95 max-w-2xl">
+          <h1 className="text-5xl md:text-6xl font-black mb-6">Our Security Services</h1>
+          <p className="text-xl opacity-90 max-w-2xl font-bold leading-relaxed">
             Comprehensive security solutions designed to protect what matters
             most to you
           </p>
