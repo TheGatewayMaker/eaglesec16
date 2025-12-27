@@ -20,7 +20,7 @@ export default function Home() {
           className="hidden md:block absolute right-0 top-20 w-[calc(50%+2rem)] h-[85%] -mr-6"
           style={{
             backgroundImage:
-              "url('https://images.pexels.com/photos/3880225/pexels-photo-3880225.jpeg?auto=compress&cs=tinysrgb&w=800')",
+              "url('https://cdn.builder.io/api/v1/image/assets%2F151c661f676241159dc387d4f0557eb8%2Fc6fb9be958f544c6a63756ea3bde1005?format=webp&width=800')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
