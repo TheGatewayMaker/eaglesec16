@@ -352,25 +352,25 @@ export default function Home() {
                 title: "Military Excellence",
                 desc: "Personnel from Pakistan's armed forces with proven expertise",
                 image:
-                  "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=800",
+                  "https://i.ibb.co/Dfm7BDgy/Screenshot-2025-12-27-at-10-20-35-PM.png",
               },
               {
                 title: "Thorough Vetting",
                 desc: "Comprehensive screening and background verification process",
                 image:
-                  "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+                  "https://i.ibb.co/JRBrY058/Screenshot-2025-12-27-at-10-21-06-PM.png",
               },
               {
                 title: "24/7 Availability",
                 desc: "Round-the-clock support and emergency response team",
                 image:
-                  "https://images.pexels.com/photos/3727465/pexels-photo-3727465.jpeg?auto=compress&cs=tinysrgb&w=800",
+                  "https://i.ibb.co/QvZZ1D9z/Screenshot-2025-12-27-at-10-21-43-PM.png",
               },
               {
                 title: "Customized Solutions",
                 desc: "Tailored security plans for your specific requirements",
                 image:
-                  "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
+                  "https://i.ibb.co/bM3xPJ6k/Screenshot-2025-12-27-at-10-22-08-PM.png",
               },
             ].map((item, i) => (
               <div
