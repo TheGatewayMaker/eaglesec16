@@ -107,7 +107,7 @@ export default function Contact() {
             </h2>
 
             {submitted && (
-              <div className="bg-green-600/10 border-2 border-green-600 text-green-600 dark:text-green-400 p-6 rounded-xl mb-8">
+              <div className="bg-green-600/10 border-2 border-green-600 text-green-600 dark:text-green-400 p-6 mb-8">
                 <p className="font-black mb-2 text-lg">
                   Message Sent Successfully!
                 </p>
@@ -133,7 +133,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-5 py-3 bg-input border-2 border-border rounded-xl text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
+                    className="w-full px-5 py-3 bg-input border-2 border-border text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
                     placeholder="Your name"
                   />
                 </div>
@@ -152,7 +152,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-5 py-3 bg-input border-2 border-border rounded-xl text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
+                    className="w-full px-5 py-3 bg-input border-2 border-border text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -172,7 +172,7 @@ export default function Contact() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-5 py-3 bg-input border-2 border-border rounded-xl text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
+                    className="w-full px-5 py-3 bg-input border-2 border-border text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
                     placeholder="+92 XXX XXXXXXX"
                   />
                 </div>
@@ -219,14 +219,14 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows={6}
-                  className="w-full px-5 py-3 bg-input border-2 border-border rounded-xl text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-none transition-all duration-300"
+                  className="w-full px-5 py-3 bg-input border-2 border-border text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-none transition-all duration-300"
                   placeholder="Tell us about your security needs..."
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-accent text-accent-foreground py-4 font-black text-lg rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
+                className="w-full bg-gradient-to-r from-accent to-blue-800 text-accent-foreground py-4 font-black text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
               >
                 Send Message
               </button>

@@ -17,7 +17,7 @@ export default function Home() {
       className="text-foreground"
       style={{
         background:
-          "linear-gradient(to bottom, #ffffff 0%, #f5f5f5 25%, #d3d3d3 50%, #696969 75%, #1a1a1a 100%)",
+          "linear-gradient(to bottom, #fafaf9 0%, #f0f0ee 25%, #e5e5e2 50%, #3a3a3a 75%, #0f0f0f 100%)",
       }}
     >
       {/* Hero Section */}
@@ -57,14 +57,14 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
                 <Link
                   to="/services"
-                  className="bg-accent text-accent-foreground px-6 sm:px-10 py-3 sm:py-5 font-black text-sm sm:text-base md:text-lg text-center rounded-xl hover:shadow-xl hover:shadow-accent/50 hover:-translate-y-0.5 transition-all duration-300 inline-block relative group overflow-hidden"
+                  className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-6 sm:px-10 py-3 sm:py-5 font-black text-sm sm:text-base md:text-lg text-center hover:shadow-xl hover:shadow-accent/40 hover:-translate-y-0.5 transition-all duration-300 inline-block relative group overflow-hidden"
                 >
                   <span className="relative z-10">Explore Services</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 translate-x-full group-hover:translate-x-0 transition-all duration-500"></div>
                 </Link>
                 <Link
                   to="/contact"
-                  className="border-3 border-accent text-accent px-6 sm:px-10 py-3 sm:py-5 font-black text-sm sm:text-base md:text-lg text-center rounded-xl hover:border-foreground hover:bg-accent/10 transition-all duration-300 inline-block relative after:absolute after:inset-0 after:border-3 after:border-accent after:rounded-xl after:scale-105 after:opacity-0 group-hover:after:scale-100 after:transition-all after:duration-300"
+                  className="border-3 border-accent text-accent px-6 sm:px-10 py-3 sm:py-5 font-black text-sm sm:text-base md:text-lg text-center hover:border-foreground hover:bg-accent/10 transition-all duration-300 inline-block relative after:absolute after:inset-0 after:border-3 after:border-accent after:scale-105 after:opacity-0 group-hover:after:scale-100 after:transition-all after:duration-300"
                 >
                   Request Consultation
                 </Link>
@@ -111,7 +111,7 @@ export default function Home() {
                   to="/services"
                   className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-lg hover:shadow-lg transition-all duration-300">
+                  <span className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg hover:shadow-lg transition-all duration-300">
                     Learn More
                   </span>
                 </Link>
@@ -147,7 +147,7 @@ export default function Home() {
                   to="/services"
                   className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-lg hover:shadow-lg transition-all duration-300">
+                  <span className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg hover:shadow-lg transition-all duration-300">
                     Learn More
                   </span>
                 </Link>
@@ -183,7 +183,7 @@ export default function Home() {
                   to="/services"
                   className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-lg hover:shadow-lg transition-all duration-300">
+                  <span className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg hover:shadow-lg transition-all duration-300">
                     Learn More
                   </span>
                 </Link>
@@ -219,7 +219,7 @@ export default function Home() {
                   to="/services"
                   className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  <span className="bg-accent text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg rounded-lg hover:shadow-lg transition-all duration-300">
+                  <span className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-6 sm:px-8 py-2 sm:py-3 font-black text-sm sm:text-base md:text-lg hover:shadow-lg transition-all duration-300">
                     Learn More
                   </span>
                 </Link>
@@ -282,12 +282,12 @@ export default function Home() {
             {/* Experience Card */}
             <div className="group relative bg-card border-2 border-accent text-foreground p-5 sm:p-8 md:p-10 text-center hover:shadow-lg transition-all duration-300">
               <div className="relative z-10">
-                <div className="inline-flex items-center justify-center w-32 h-24 sm:w-40 sm:h-32 md:w-56 md:h-40 bg-gradient-to-br from-accent to-yellow-500 mb-4 sm:mb-6 md:mb-8 shadow-md">
+                <div className="inline-flex items-center justify-center w-32 h-24 sm:w-40 sm:h-32 md:w-56 md:h-40 bg-gradient-to-br from-accent to-blue-900 mb-4 sm:mb-6 md:mb-8 shadow-lg shadow-accent/40">
                   <AnimatedCounter
                     targetNumber={30}
                     suffix="+"
                     duration={2000}
-                    className="text-4xl sm:text-5xl md:text-6xl font-black text-accent-foreground"
+                    className="text-4xl sm:text-5xl md:text-6xl font-black text-white"
                   />
                 </div>
                 <p className="text-sm sm:text-base md:text-lg font-black text-foreground">
@@ -383,14 +383,14 @@ export default function Home() {
             ].map((item, i) => (
               <div
                 key={i}
-                className="bg-card border-2 border-border p-5 sm:p-6 md:p-10 group hover:shadow-lg hover:bg-slate-800 transition-all duration-300 animate-slide-in-from-bottom"
+                className="bg-card border-2 border-border p-5 sm:p-6 md:p-10 group hover:shadow-xl hover:border-accent/50 hover:bg-blue-50 dark:hover:bg-blue-950/30 transition-all duration-300 animate-slide-in-from-bottom"
                 style={{ animationDelay: `${i * 100}ms` }}
               >
                 <item.icon className="w-10 sm:w-12 md:w-16 h-10 sm:h-12 md:h-16 text-accent mb-3 sm:mb-4 md:mb-6 transition-transform duration-300" />
                 <h3 className="text-lg sm:text-xl md:text-3xl font-black text-foreground mb-2 sm:mb-3 md:mb-4 leading-tight group-hover:text-accent transition-colors duration-300">
                   {item.title}
                 </h3>
-                <p className="text-xs sm:text-sm md:text-lg font-bold text-muted-foreground leading-relaxed group-hover:text-yellow-300 transition-colors duration-300">
+                <p className="text-xs sm:text-sm md:text-lg font-bold text-muted-foreground leading-relaxed group-hover:text-accent transition-colors duration-300">
                   {item.desc}
                 </p>
               </div>
@@ -418,14 +418,14 @@ export default function Home() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-16">
             {/* Head Office */}
-            <div className="bg-gradient-to-br from-accent to-yellow-500 text-accent-foreground p-6 sm:p-8 md:p-12 group hover:shadow-xl transition-all duration-300">
-              <p className="text-accent-foreground font-black text-xs uppercase tracking-widest mb-3 sm:mb-4 md:mb-6">
+            <div className="bg-gradient-to-br from-accent to-blue-900 text-white p-6 sm:p-8 md:p-12 group hover:shadow-2xl hover:from-blue-700 hover:to-blue-950 transition-all duration-300">
+              <p className="text-white font-black text-xs uppercase tracking-widest mb-3 sm:mb-4 md:mb-6 opacity-90">
                 Head Office
               </p>
-              <h3 className="text-3xl sm:text-4xl md:text-7xl font-black mb-4 sm:mb-6 md:mb-8 leading-tight">
+              <h3 className="text-3xl sm:text-4xl md:text-7xl font-black mb-4 sm:mb-6 md:mb-8 leading-tight text-white">
                 Islamabad
               </h3>
-              <p className="text-sm sm:text-base md:text-lg font-bold opacity-95 leading-relaxed">
+              <p className="text-sm sm:text-base md:text-lg font-bold opacity-95 leading-relaxed text-white">
                 Central coordination and management hub
               </p>
             </div>
@@ -447,11 +447,9 @@ export default function Home() {
                   ].map((city) => (
                     <div
                       key={city}
-                      className="bg-blue-600 text-white px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-center hover:bg-gradient-to-br hover:from-accent hover:to-yellow-500 hover:text-accent-foreground transition-all duration-300"
+                      className="bg-blue-600 text-white px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-center hover:bg-gradient-to-r hover:from-accent hover:to-blue-800 hover:text-white font-black text-xs sm:text-sm md:text-lg leading-tight transition-all duration-300 hover:shadow-lg hover:shadow-accent/30"
                     >
-                      <p className="font-black text-xs sm:text-sm md:text-lg leading-tight">
-                        {city}
-                      </p>
+                      {city}
                     </div>
                   ))}
                 </div>
@@ -526,14 +524,14 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center">
             <Link
               to="/contact"
-              className="bg-accent text-accent-foreground px-8 md:px-14 py-4 md:py-7 font-black text-base md:text-lg rounded-xl hover:shadow-xl hover:shadow-accent/50 hover:-translate-y-0.5 transition-all duration-300 inline-block w-full sm:w-auto text-center relative group overflow-hidden"
+              className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-8 md:px-14 py-4 md:py-7 font-black text-base md:text-lg hover:shadow-xl hover:shadow-accent/40 hover:-translate-y-0.5 transition-all duration-300 inline-block w-full sm:w-auto text-center relative group overflow-hidden"
             >
               <span className="relative z-10">Start Your Consultation</span>
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 translate-x-full group-hover:translate-x-0 transition-all duration-500"></div>
             </Link>
             <Link
               to="/services"
-              className="border-3 border-accent text-accent px-8 md:px-14 py-4 md:py-7 font-black text-base md:text-lg rounded-xl hover:border-foreground hover:bg-accent/10 transition-all duration-300 inline-block w-full sm:w-auto text-center"
+              className="border-3 border-accent text-accent px-8 md:px-14 py-4 md:py-7 font-black text-base md:text-lg hover:border-foreground hover:bg-accent/10 transition-all duration-300 inline-block w-full sm:w-auto text-center"
             >
               View Services
             </Link>

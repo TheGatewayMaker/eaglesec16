@@ -12,89 +12,89 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    --background: 210 12% 93%;
-    --foreground: 210 10% 15%;
+    --background: 0 0% 97%;
+    --foreground: 0 0% 8%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 10% 15%;
+    --card-foreground: 0 0% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 10% 15%;
+    --popover-foreground: 0 0% 8%;
 
-    --primary: 210 15% 22%;
-    --primary-foreground: 45 100% 51%;
+    --primary: 210 30% 20%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 45 100% 51%;
-    --secondary-foreground: 210 15% 22%;
+    --secondary: 210 40% 35%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 10% 85%;
-    --muted-foreground: 210 8% 35%;
+    --muted: 210 15% 85%;
+    --muted-foreground: 210 15% 30%;
 
-    --accent: 45 100% 51%;
-    --accent-foreground: 210 15% 22%;
+    --accent: 210 70% 35%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 50 25% 96%;
 
-    --border: 210 10% 88%;
-    --input: 210 10% 95%;
-    --ring: 45 100% 51%;
+    --border: 210 20% 90%;
+    --input: 0 0% 96%;
+    --ring: 210 70% 35%;
 
-    --radius: 0.375rem;
+    --radius: 0rem;
 
-    --sidebar-background: 210 15% 22%;
+    --sidebar-background: 210 30% 15%;
 
     --sidebar-foreground: 0 0% 100%;
 
-    --sidebar-primary: 45 100% 51%;
+    --sidebar-primary: 210 70% 35%;
 
-    --sidebar-primary-foreground: 210 15% 22%;
+    --sidebar-primary-foreground: 0 0% 100%;
 
-    --sidebar-accent: 45 100% 51%;
+    --sidebar-accent: 210 70% 35%;
 
-    --sidebar-accent-foreground: 210 15% 22%;
+    --sidebar-accent-foreground: 0 0% 100%;
 
-    --sidebar-border: 210 15% 30%;
+    --sidebar-border: 210 20% 25%;
 
-    --sidebar-ring: 45 100% 51%;
+    --sidebar-ring: 210 70% 35%;
   }
 
   .dark {
-    --background: 210 15% 20%;
-    --foreground: 0 0% 100%;
+    --background: 0 0% 10%;
+    --foreground: 0 0% 98%;
 
-    --card: 210 15% 25%;
-    --card-foreground: 0 0% 100%;
+    --card: 0 0% 15%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 210 15% 25%;
-    --popover-foreground: 0 0% 100%;
+    --popover: 0 0% 15%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 0 0% 100%;
-    --primary-foreground: 210 15% 20%;
+    --primary: 210 30% 25%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 45 100% 51%;
-    --secondary-foreground: 210 15% 20%;
+    --secondary: 210 40% 40%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 5% 30%;
-    --muted-foreground: 210 5% 70%;
+    --muted: 210 15% 35%;
+    --muted-foreground: 210 15% 75%;
 
-    --accent: 45 100% 51%;
-    --accent-foreground: 210 15% 20%;
+    --accent: 210 70% 35%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 210 15% 30%;
-    --input: 210 15% 30%;
-    --ring: 45 100% 51%;
-    --sidebar-background: 210 15% 20%;
+    --border: 210 20% 25%;
+    --input: 0 0% 18%;
+    --ring: 210 70% 35%;
+    --sidebar-background: 0 0% 12%;
     --sidebar-foreground: 0 0% 100%;
-    --sidebar-primary: 45 100% 51%;
-    --sidebar-primary-foreground: 210 15% 20%;
-    --sidebar-accent: 45 100% 51%;
-    --sidebar-accent-foreground: 210 15% 20%;
-    --sidebar-border: 210 15% 30%;
-    --sidebar-ring: 45 100% 51%;
+    --sidebar-primary: 210 70% 35%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 70% 35%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 210 20% 25%;
+    --sidebar-ring: 210 70% 35%;
   }
 }
 
@@ -115,9 +115,9 @@
     @apply text-foreground;
     background: linear-gradient(
       to bottom,
-      #f9f8f6 0%,
-      #f3f1ee 50%,
-      #ede9e4 100%
+      #fafaf9 0%,
+      #f5f5f4 50%,
+      #f0f0ee 100%
     );
     font-family:
       "Inter",
@@ -134,8 +134,9 @@
   body.dark {
     background: linear-gradient(
       to bottom,
-      hsl(210, 15%, 20%) 0%,
-      hsl(210, 15%, 18%) 100%
+      #0a0a0a 0%,
+      #121212 50%,
+      #1a1a1a 100%
     );
   }
 
