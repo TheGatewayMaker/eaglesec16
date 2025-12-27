@@ -327,37 +327,45 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             {[
               {
-                icon: Award,
                 title: "Military Excellence",
                 desc: "Personnel from Pakistan's armed forces with proven expertise",
+                image: "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=800",
               },
               {
-                icon: CheckCircle2,
                 title: "Thorough Vetting",
                 desc: "Comprehensive screening and background verification process",
+                image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
               },
               {
-                icon: Zap,
                 title: "24/7 Availability",
                 desc: "Round-the-clock support and emergency response team",
+                image: "https://images.pexels.com/photos/3727465/pexels-photo-3727465.jpeg?auto=compress&cs=tinysrgb&w=800",
               },
               {
-                icon: Target,
                 title: "Customized Solutions",
                 desc: "Tailored security plans for your specific requirements",
+                image: "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
               },
             ].map((item, i) => (
               <div
                 key={i}
-                className="bg-card border border-border p-6 md:p-8 transition-all duration-300 hover:shadow-lg hover:border-accent/50 hover:bg-accent/5"
+                className="relative aspect-square overflow-hidden border border-border transition-all duration-300 hover:shadow-lg hover:border-accent/50 group"
               >
-                <item.icon className="w-12 md:w-14 h-12 md:h-14 text-accent mb-4 md:mb-6" />
-                <h3 className="text-lg md:text-2xl font-black mb-3 md:mb-4 leading-tight">
-                  {item.title}
-                </h3>
-                <p className="text-sm md:text-base font-bold text-muted-foreground leading-relaxed">
-                  {item.desc}
-                </p>
+                <div
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{
+                    backgroundImage: `url('${item.image}')`,
+                  }}
+                />
+                <div className="absolute inset-0 bg-black/50 group-hover:bg-black/55 transition-colors duration-300"></div>
+                <div className="absolute inset-0 flex flex-col justify-center items-center p-6 text-center">
+                  <h3 className="text-xl md:text-2xl font-black mb-3 text-white leading-tight">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm md:text-base font-bold text-white/95 leading-relaxed">
+                    {item.desc}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
