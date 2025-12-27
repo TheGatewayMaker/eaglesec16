@@ -1,4 +1,4 @@
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Cell } from "recharts";
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from "recharts";
 
 export default function GuardsByRegion() {
   const data = [
@@ -10,11 +10,11 @@ export default function GuardsByRegion() {
   ];
 
   const colors = [
-    "hsl(140, 55%, 35%)", // pk-green-main
-    "hsl(210, 70%, 35%)", // accent blue
-    "hsl(140, 50%, 50%)", // pk-green-light
-    "hsl(140, 62%, 25%)", // pk-green-dark
-    "hsl(210, 40%, 40%)", // secondary
+    "#3d8944", // pk-green-main
+    "#1e5ba8", // accent blue
+    "#4d9d56", // pk-green-light
+    "#1a4d2e", // pk-green-dark
+    "#2d6b8f", // secondary
   ];
 
   const CustomTooltip = ({ active, payload }: any) => {
@@ -24,7 +24,7 @@ export default function GuardsByRegion() {
           <p className="font-black text-sm text-foreground">
             {payload[0].payload.name}
           </p>
-          <p className="font-bold text-sm text-pk-green-main">
+          <p className="font-bold text-sm" style={{ color: colors[data.indexOf(payload[0].payload)] }}>
             {payload[0].value} Guards
           </p>
         </div>
