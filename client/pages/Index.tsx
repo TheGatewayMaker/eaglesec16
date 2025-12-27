@@ -383,7 +383,7 @@ export default function Home() {
             ].map((item, i) => (
               <div
                 key={i}
-                className="bg-card border-2 border-border p-5 sm:p-6 md:p-10 group hover:shadow-xl hover:border-accent/50 hover:bg-blue-50 dark:hover:bg-blue-950/30 transition-all duration-300 animate-slide-in-from-bottom"
+                className="bg-card border-2 border-border p-5 sm:p-6 md:p-10 group hover:shadow-2xl hover:border-accent hover:bg-blue-50 dark:hover:bg-blue-950/40 transition-all duration-300 animate-slide-in-from-bottom"
                 style={{ animationDelay: `${i * 100}ms` }}
               >
                 <item.icon className="w-10 sm:w-12 md:w-16 h-10 sm:h-12 md:h-16 text-accent mb-3 sm:mb-4 md:mb-6 transition-transform duration-300" />
