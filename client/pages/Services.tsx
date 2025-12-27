@@ -102,7 +102,7 @@ export default function Services() {
             >
               <div className="overflow-hidden shadow-lg h-48 sm:h-56 md:h-96 group relative">
                 <img
-                  src="https://i.ibb.co/1JG05cV5/Screenshot-2025-12-27-at-10-24-10-PM.png"
+                  src="https://i.ibb.co/MxQRyL7x/Screenshot-2025-12-27-at-10-19-22-PM.png"
                   alt="Elite security professional in uniform"
                   className="w-full h-full object-cover transition-transform duration-500"
                 />
@@ -207,7 +207,7 @@ export default function Services() {
               </div>
               <div className="overflow-hidden shadow-lg h-48 sm:h-56 md:h-96 group relative">
                 <img
-                  src="https://i.ibb.co/QFqy3fgb/Screenshot-2025-12-27-at-10-24-31-PM.png"
+                  src="https://i.ibb.co/zhQrVk6Q/Screenshot-2025-12-27-at-10-24-55-PM.png"
                   alt="Mobile security escort team"
                   className="w-full h-full object-cover transition-transform duration-500"
                 />
@@ -234,7 +234,7 @@ export default function Services() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
               <div className="overflow-hidden shadow-lg h-48 sm:h-56 md:h-96 group relative">
                 <img
-                  src="https://i.ibb.co/zhQrVk6Q/Screenshot-2025-12-27-at-10-24-55-PM.png"
+                  src="https://i.ibb.co/1JG05cV5/Screenshot-2025-12-27-at-10-24-10-PM.png"
                   alt="Professional security equipment and surveillance"
                   className="w-full h-full object-cover transition-transform duration-500"
                 />
