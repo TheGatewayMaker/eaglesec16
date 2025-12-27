@@ -12,12 +12,15 @@ export default function Services() {
   return (
     <div className="bg-background transition-colors duration-300">
       {/* Hero Section */}
-      <section className="bg-background text-foreground py-16 sm:py-20 md:py-32 transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6">
+      <section className="bg-background text-foreground py-12 sm:py-16 md:py-24 transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
+          <div className="flex items-center gap-3 md:gap-4 mb-4 md:mb-6">
+            <div className="w-1 md:w-1.5 h-10 md:h-12 bg-accent rounded-full flex-shrink-0"></div>
+          </div>
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-black mb-4 sm:mb-6 text-foreground">
             Our Security Services
           </h1>
-          <p className="text-sm sm:text-base md:text-xl opacity-90 max-w-2xl font-bold leading-relaxed text-muted-foreground">
+          <p className="text-sm md:text-lg font-bold text-muted-foreground max-w-3xl leading-relaxed">
             Comprehensive security solutions designed to protect what matters
             most to you
           </p>
@@ -25,8 +28,8 @@ export default function Services() {
       </section>
 
       {/* Services Overview */}
-      <section className="py-12 sm:py-16 md:py-28 bg-background transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6">
+      <section className="py-10 sm:py-14 md:py-20 bg-background transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
           {/* Static Security Guards */}
           <div className="mb-10 sm:mb-16 md:mb-20 pb-8 sm:pb-12 md:pb-16 border-b border-border">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center animate-fade-in">
@@ -70,7 +73,7 @@ export default function Services() {
                   </li>
                 </ul>
               </div>
-              <div className="overflow-hidden rounded-xl shadow-lg h-48 sm:h-56 md:h-96 group relative">
+              <div className="overflow-hidden shadow-lg h-48 sm:h-56 md:h-96 group relative">
                 <img
                   src="https://images.pexels.com/photos/29656069/pexels-photo-29656069.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Professional security guards with tactical gear"
@@ -97,7 +100,7 @@ export default function Services() {
               className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in"
               style={{ animationDelay: "100ms" }}
             >
-              <div className="overflow-hidden rounded-xl shadow-lg h-48 sm:h-56 md:h-96 group relative">
+              <div className="overflow-hidden shadow-lg h-48 sm:h-56 md:h-96 group relative">
                 <img
                   src="https://images.pexels.com/photos/7714972/pexels-photo-7714972.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Elite security professional in uniform"
@@ -202,7 +205,7 @@ export default function Services() {
                   </li>
                 </ul>
               </div>
-              <div className="overflow-hidden rounded-xl shadow-lg h-48 sm:h-56 md:h-96 group relative">
+              <div className="overflow-hidden shadow-lg h-48 sm:h-56 md:h-96 group relative">
                 <img
                   src="https://images.pexels.com/photos/3880225/pexels-photo-3880225.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Mobile security escort team"
@@ -229,7 +232,7 @@ export default function Services() {
             style={{ animationDelay: "300ms" }}
           >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
-              <div className="overflow-hidden rounded-xl shadow-lg h-48 sm:h-56 md:h-96 group relative">
+              <div className="overflow-hidden shadow-lg h-48 sm:h-56 md:h-96 group relative">
                 <img
                   src="https://images.pexels.com/photos/7714972/pexels-photo-7714972.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Professional security equipment and surveillance"
@@ -292,17 +295,17 @@ export default function Services() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-background py-14 sm:py-20 md:py-32 transition-colors duration-300">
-        <div className="container mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-5xl text-foreground mb-4 sm:mb-6 font-black">
+      <section className="bg-background py-12 sm:py-16 md:py-24 transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6 text-center max-w-4xl">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl text-foreground mb-6 md:mb-8 font-black">
             Need Custom Security Solutions?
           </h2>
-          <p className="text-sm sm:text-base md:text-xl text-muted-foreground mb-8 sm:mb-10 font-bold">
+          <p className="text-sm md:text-lg text-muted-foreground mb-10 md:mb-12 font-bold leading-relaxed">
             Contact our team to discuss your specific security requirements
           </p>
           <Link
             to="/contact"
-            className="bg-accent text-accent-foreground px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 font-black text-sm sm:text-base md:text-lg rounded-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
+            className="bg-accent text-accent-foreground px-8 md:px-12 py-4 md:py-5 font-black text-base md:text-lg hover:shadow-lg transition-shadow duration-300 inline-block"
           >
             Get in Touch
           </Link>
