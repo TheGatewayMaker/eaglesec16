@@ -524,14 +524,14 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center">
             <Link
               to="/contact"
-              className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-8 md:px-14 py-4 md:py-7 font-black text-base md:text-lg hover:bg-gradient-to-r hover:from-accent-foreground hover:to-accent-foreground hover:text-accent hover:shadow-xl transition-all duration-300 inline-block w-full sm:w-auto text-center relative group overflow-hidden"
+              className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-8 md:px-14 py-4 md:py-7 font-black text-base md:text-lg hover:from-blue-700 hover:to-blue-900 hover:shadow-2xl transition-all duration-300 inline-block w-full sm:w-auto text-center relative group overflow-hidden"
             >
               <span className="relative z-10">Start Your Consultation</span>
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 translate-x-full group-hover:translate-x-0 transition-all duration-500"></div>
             </Link>
             <Link
               to="/services"
-              className="border-3 border-accent text-accent px-8 md:px-14 py-4 md:py-7 font-black text-base md:text-lg hover:border-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300 inline-block w-full sm:w-auto text-center"
+              className="border-2 border-accent text-accent px-8 md:px-14 py-4 md:py-7 font-black text-base md:text-lg hover:bg-accent hover:text-accent-foreground transition-all duration-300 inline-block w-full sm:w-auto text-center"
             >
               View Services
             </Link>
