@@ -86,121 +86,161 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="space-y-8 md:space-y-12">
-            {/* Service 1 - Bodyguards */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50">
-              <div className="relative overflow-hidden h-56 md:h-80 order-2 md:order-1">
-                <img
-                  src="https://i.ibb.co/1fF8J0kc/Screenshot-2025-12-27-at-10-18-51-PM.png"
-                  alt="Elite bodyguard protection services"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="bg-card text-foreground p-8 md:p-12 flex flex-col justify-center order-1 md:order-2">
-                <Users className="w-14 h-14 mb-6 text-accent" />
-                <h3 className="text-3xl md:text-4xl font-black mb-4 leading-tight">
-                  Elite Bodyguards
-                </h3>
-                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-8">
-                  Our SSG-trained specialists deliver executive-level protection
-                  with tactical expertise and discretion. Every bodyguard
-                  undergoes rigorous military training and psychological
-                  evaluation.
-                </p>
-                <Link
-                  to="/services"
-                  className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
-                >
-                  Learn More
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
-              </div>
-            </div>
-
-            {/* Service 2 - Static Guards */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50">
-              <div className="relative overflow-hidden h-56 md:h-80">
-                <img
-                  src="https://i.ibb.co/xK0H4mRY/Screenshot-2025-12-27-at-10-17-59-PM.png"
-                  alt="Professional security guards with tactical gear"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="bg-card text-foreground p-8 md:p-12 flex flex-col justify-center">
-                <Shield className="w-14 h-14 mb-6 text-accent" />
-                <h3 className="text-3xl md:text-4xl font-black mb-4 leading-tight">
-                  Static Security Guards
-                </h3>
-                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-8">
-                  Our vetted security professionals provide round-the-clock
-                  on-site protection with military discipline and precision.
-                  Each guard undergoes comprehensive background screening.
-                </p>
-                <Link
-                  to="/services"
-                  className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
-                >
-                  Learn More
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-6">
+            {/* Service 1 - Bodyguards (Left) */}
+            <div className="border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-accent/50 group">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-0">
+                <div className="relative overflow-hidden h-56 sm:h-80 md:h-96">
+                  <img
+                    src="https://i.ibb.co/1fF8J0kc/Screenshot-2025-12-27-at-10-18-51-PM.png"
+                    alt="Elite bodyguard protection services"
+                    className="w-full h-full object-cover group-hover:brightness-75 transition-all duration-300"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <Link
+                      to="/services"
+                      className="bg-accent text-accent-foreground px-6 py-2.5 font-black text-sm md:text-base hover:shadow-lg transition-shadow duration-300"
+                    >
+                      Get a Quote
+                    </Link>
+                  </div>
+                </div>
+                <div className="bg-card text-foreground p-6 md:p-10 flex flex-col justify-center">
+                  <Users className="w-14 h-14 mb-6 text-accent" />
+                  <h3 className="text-2xl md:text-3xl font-black mb-4 leading-tight">
+                    Elite Bodyguards
+                  </h3>
+                  <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-6">
+                    Our SSG-trained specialists deliver executive-level protection
+                    with tactical expertise and discretion. Every bodyguard
+                    undergoes rigorous military training and psychological
+                    evaluation.
+                  </p>
+                  <Link
+                    to="/services"
+                    className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
+                  >
+                    Learn More
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </div>
               </div>
             </div>
 
-            {/* Service 3 - Mobile Escorts */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50">
-              <div className="relative overflow-hidden h-56 md:h-80 order-2 md:order-1">
-                <img
-                  src="https://i.ibb.co/MxQRyL7x/Screenshot-2025-12-27-at-10-19-22-PM.png"
-                  alt="Professional mobile escort security services"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="bg-card text-foreground p-8 md:p-12 flex flex-col justify-center order-1 md:order-2">
-                <Truck className="w-14 h-14 mb-6 text-accent" />
-                <h3 className="text-3xl md:text-4xl font-black mb-4 leading-tight">
-                  Mobile Escorts
-                </h3>
-                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-8">
-                  Our mobile escort teams provide seamless protection during
-                  transit and travel. We offer route planning, threat
-                  assessment, and coordinated security response.
-                </p>
-                <Link
-                  to="/services"
-                  className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
-                >
-                  Learn More
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
+            {/* Service 2 - Static Guards (Right) */}
+            <div className="border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-accent/50 group">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-0">
+                <div className="bg-card text-foreground p-6 md:p-10 flex flex-col justify-center order-2 sm:order-1">
+                  <Shield className="w-14 h-14 mb-6 text-accent" />
+                  <h3 className="text-2xl md:text-3xl font-black mb-4 leading-tight">
+                    Static Security Guards
+                  </h3>
+                  <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-6">
+                    Our vetted security professionals provide round-the-clock
+                    on-site protection with military discipline and precision.
+                    Each guard undergoes comprehensive background screening.
+                  </p>
+                  <Link
+                    to="/services"
+                    className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
+                  >
+                    Learn More
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </div>
+                <div className="relative overflow-hidden h-56 sm:h-80 md:h-96 order-1 sm:order-2">
+                  <img
+                    src="https://i.ibb.co/xK0H4mRY/Screenshot-2025-12-27-at-10-17-59-PM.png"
+                    alt="Professional security guards with tactical gear"
+                    className="w-full h-full object-cover group-hover:brightness-75 transition-all duration-300"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <Link
+                      to="/services"
+                      className="bg-accent text-accent-foreground px-6 py-2.5 font-black text-sm md:text-base hover:shadow-lg transition-shadow duration-300"
+                    >
+                      Get a Quote
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
 
-            {/* Service 4 - Security Equipment */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50">
-              <div className="relative overflow-hidden h-56 md:h-80">
-                <img
-                  src="https://i.ibb.co/1fHGWYGz/Screenshot-2025-12-27-at-10-20-06-PM.png"
-                  alt="Advanced security equipment and surveillance systems"
-                  className="w-full h-full object-cover"
-                />
+            {/* Service 3 - Mobile Escorts (Left) */}
+            <div className="border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-accent/50 group">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-0">
+                <div className="relative overflow-hidden h-56 sm:h-80 md:h-96">
+                  <img
+                    src="https://i.ibb.co/MxQRyL7x/Screenshot-2025-12-27-at-10-19-22-PM.png"
+                    alt="Professional mobile escort security services"
+                    className="w-full h-full object-cover group-hover:brightness-75 transition-all duration-300"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <Link
+                      to="/services"
+                      className="bg-accent text-accent-foreground px-6 py-2.5 font-black text-sm md:text-base hover:shadow-lg transition-shadow duration-300"
+                    >
+                      Get a Quote
+                    </Link>
+                  </div>
+                </div>
+                <div className="bg-card text-foreground p-6 md:p-10 flex flex-col justify-center">
+                  <Truck className="w-14 h-14 mb-6 text-accent" />
+                  <h3 className="text-2xl md:text-3xl font-black mb-4 leading-tight">
+                    Mobile Escorts
+                  </h3>
+                  <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-6">
+                    Our mobile escort teams provide seamless protection during
+                    transit and travel. We offer route planning, threat
+                    assessment, and coordinated security response.
+                  </p>
+                  <Link
+                    to="/services"
+                    className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
+                  >
+                    Learn More
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </div>
               </div>
-              <div className="bg-card text-foreground p-8 md:p-12 flex flex-col justify-center">
-                <Lock className="w-14 h-14 mb-6 text-accent" />
-                <h3 className="text-3xl md:text-4xl font-black mb-4 leading-tight">
-                  Security Equipment
-                </h3>
-                <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-8">
-                  We deploy state-of-the-art surveillance, access control, and
-                  security monitoring systems tailored to your facility. From
-                  CCTV networks to integrated platforms.
-                </p>
-                <Link
-                  to="/services"
-                  className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
-                >
-                  Learn More
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
+            </div>
+
+            {/* Service 4 - Security Equipment (Right) */}
+            <div className="border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-xl hover:border-accent/50 group">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-0">
+                <div className="bg-card text-foreground p-6 md:p-10 flex flex-col justify-center order-2 sm:order-1">
+                  <Lock className="w-14 h-14 mb-6 text-accent" />
+                  <h3 className="text-2xl md:text-3xl font-black mb-4 leading-tight">
+                    Security Equipment
+                  </h3>
+                  <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-6">
+                    We deploy state-of-the-art surveillance, access control, and
+                    security monitoring systems tailored to your facility. From
+                    CCTV networks to integrated platforms.
+                  </p>
+                  <Link
+                    to="/services"
+                    className="inline-flex items-center gap-2 text-accent font-black text-sm md:text-base hover:text-accent-foreground transition-colors duration-300 w-fit"
+                  >
+                    Learn More
+                    <ArrowRight className="w-4 h-4" />
+                  </Link>
+                </div>
+                <div className="relative overflow-hidden h-56 sm:h-80 md:h-96 order-1 sm:order-2">
+                  <img
+                    src="https://i.ibb.co/1fHGWYGz/Screenshot-2025-12-27-at-10-20-06-PM.png"
+                    alt="Advanced security equipment and surveillance systems"
+                    className="w-full h-full object-cover group-hover:brightness-75 transition-all duration-300"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <Link
+                      to="/services"
+                      className="bg-accent text-accent-foreground px-6 py-2.5 font-black text-sm md:text-base hover:shadow-lg transition-shadow duration-300"
+                    >
+                      Get a Quote
+                    </Link>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
