@@ -387,7 +387,7 @@ export default function Home() {
                 style={{ animationDelay: `${i * 100}ms` }}
               >
                 <item.icon className="w-10 sm:w-12 md:w-16 h-10 sm:h-12 md:h-16 text-accent mb-3 sm:mb-4 md:mb-6 transition-transform duration-300" />
-                <h3 className="text-lg sm:text-xl md:text-3xl font-black text-foreground mb-2 sm:mb-3 md:mb-4 leading-tight group-hover:text-accent transition-colors duration-300">
+                <h3 className="text-lg sm:text-xl md:text-3xl font-black mb-2 sm:mb-3 md:mb-4 leading-tight group-hover:text-accent transition-colors duration-300">
                   {item.title}
                 </h3>
                 <p className="text-xs sm:text-sm md:text-lg font-bold text-muted-foreground leading-relaxed group-hover:text-accent transition-colors duration-300">
