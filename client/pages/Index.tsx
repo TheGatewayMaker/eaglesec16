@@ -476,17 +476,17 @@ export default function Home() {
       </section>
 
       {/* Trusted By Section */}
-      <section className="py-16 md:py-32 bg-background transition-colors duration-300 border-y border-border">
-        <div className="container mx-auto px-6">
-          <div className="mb-12 md:mb-16 text-center">
-            <h2 className="text-4xl md:text-6xl font-black text-foreground leading-tight mb-6">
+      <section className="py-12 sm:py-16 md:py-32 bg-background transition-colors duration-300 border-y border-border">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="mb-8 sm:mb-12 md:mb-16 text-center">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-black text-foreground leading-tight mb-4 sm:mb-6">
               Our Clients
             </h2>
           </div>
-          <h3 className="text-xl md:text-2xl font-black mb-10 md:mb-12 leading-tight text-foreground text-center">
+          <h3 className="text-base sm:text-lg md:text-2xl font-black mb-6 sm:mb-10 md:mb-12 leading-tight text-foreground text-center">
             Trusted by Leading Organizations
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-6">
             {[
               "ARY News",
               "Meezan Bank",
