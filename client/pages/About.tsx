@@ -16,18 +16,18 @@ export default function About() {
         />
         <div className="absolute inset-0 bg-black/50"></div>
 
-        <div className="relative z-10 container mx-auto px-6 text-center text-white">
-          <div className="mb-8 animate-bounce-gentle">
+        <div className="relative z-10 container mx-auto px-4 sm:px-6 text-center text-white">
+          <div className="mb-3 sm:mb-6 md:mb-8 animate-bounce-gentle">
             <img
               src="https://i.ibb.co/8gTBwZC9/eaglesecurityoriginallogomonochrome.png"
               alt="Eagle Security Guards Logo"
-              className="w-32 md:w-40 h-32 md:h-40 object-contain mx-auto opacity-95 filter drop-shadow-xl"
+              className="w-16 sm:w-24 md:w-40 h-16 sm:h-24 md:h-40 object-contain mx-auto opacity-95 filter drop-shadow-xl"
             />
           </div>
-          <h1 className="text-5xl sm:text-6xl md:text-7xl font-black mb-6 text-white drop-shadow-2xl leading-tight">
+          <h1 className="text-2xl sm:text-4xl md:text-7xl font-black mb-3 sm:mb-6 text-white drop-shadow-2xl leading-tight">
             About Eagle Security Guards
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl font-bold opacity-95 max-w-3xl mx-auto drop-shadow-lg">
+          <p className="text-xs sm:text-base md:text-2xl font-bold opacity-95 max-w-3xl mx-auto drop-shadow-lg">
             Guardians of Trust • Defenders of Peace • Protectors Since 1992
           </p>
         </div>
