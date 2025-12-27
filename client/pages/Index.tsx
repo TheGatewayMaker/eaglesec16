@@ -343,22 +343,22 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us - Feature Grid */}
-      <section className="py-20 md:py-40 bg-background transition-colors duration-300">
-        <div className="container mx-auto px-6">
+      <section className="py-14 sm:py-20 md:py-40 bg-background transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6">
           {/* Section Title with Visual Styling */}
-          <div className="mb-16 md:mb-20">
-            <div className="flex items-start gap-3 md:gap-4 mb-6 md:mb-8">
-              <div className="w-1.5 md:w-2 h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
-              <h2 className="text-3xl md:text-6xl font-black text-foreground leading-tight">
+          <div className="mb-10 sm:mb-16 md:mb-20">
+            <div className="flex items-start gap-2 sm:gap-3 md:gap-4 mb-4 sm:mb-6 md:mb-8">
+              <div className="w-1 sm:w-1.5 md:w-2 h-8 sm:h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
+              <h2 className="text-2xl sm:text-3xl md:text-6xl font-black text-foreground leading-tight">
                 Why Choose Eagle
               </h2>
             </div>
-            <p className="text-sm md:text-xl font-bold text-muted-foreground ml-6 md:ml-8 max-w-2xl leading-relaxed">
+            <p className="text-xs sm:text-sm md:text-xl font-bold text-muted-foreground ml-4 sm:ml-6 md:ml-8 max-w-2xl leading-relaxed">
               Three decades of trusted security excellence
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 md:gap-8">
             {[
               {
                 icon: Award,
@@ -383,14 +383,14 @@ export default function Home() {
             ].map((item, i) => (
               <div
                 key={i}
-                className="bg-card border-2 border-border p-6 md:p-10 group hover:shadow-lg hover:bg-slate-800 transition-all duration-300 animate-slide-in-from-bottom"
+                className="bg-card border-2 border-border p-5 sm:p-6 md:p-10 group hover:shadow-lg hover:bg-slate-800 transition-all duration-300 animate-slide-in-from-bottom"
                 style={{ animationDelay: `${i * 100}ms` }}
               >
-                <item.icon className="w-12 md:w-16 h-12 md:h-16 text-accent mb-4 md:mb-6 transition-transform duration-300" />
-                <h3 className="text-xl md:text-3xl font-black text-foreground mb-3 md:mb-4 leading-tight group-hover:text-accent transition-colors duration-300">
+                <item.icon className="w-10 sm:w-12 md:w-16 h-10 sm:h-12 md:h-16 text-accent mb-3 sm:mb-4 md:mb-6 transition-transform duration-300" />
+                <h3 className="text-lg sm:text-xl md:text-3xl font-black text-foreground mb-2 sm:mb-3 md:mb-4 leading-tight group-hover:text-accent transition-colors duration-300">
                   {item.title}
                 </h3>
-                <p className="text-base md:text-lg font-bold text-muted-foreground leading-relaxed group-hover:text-yellow-300 transition-colors duration-300">
+                <p className="text-xs sm:text-sm md:text-lg font-bold text-muted-foreground leading-relaxed group-hover:text-yellow-300 transition-colors duration-300">
                   {item.desc}
                 </p>
               </div>
