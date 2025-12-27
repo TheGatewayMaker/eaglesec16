@@ -26,7 +26,8 @@ export default function CompanyWiseDeployments() {
             </h2>
           </div>
           <p className="text-sm md:text-lg font-bold text-muted-foreground ml-0 max-w-3xl leading-relaxed">
-            Our security personnel deployed across major organizations and businesses
+            Our security personnel deployed across major organizations and
+            businesses
           </p>
         </div>
 
@@ -57,7 +58,9 @@ export default function CompanyWiseDeployments() {
           {/* Right Column */}
           <div className="bg-card border border-border rounded-lg overflow-hidden">
             <div className="bg-accent text-white px-6 md:px-8 py-4 md:py-5">
-              <h3 className="text-lg md:text-xl font-black">Additional Deployments</h3>
+              <h3 className="text-lg md:text-xl font-black">
+                Additional Deployments
+              </h3>
             </div>
             <div className="divide-y divide-border">
               {rightData.map((item, i) => (

@@ -1,11 +1,5 @@
 import { Link } from "react-router-dom";
-import {
-  Shield,
-  Users,
-  Truck,
-  Lock,
-  ArrowRight,
-} from "lucide-react";
+import { Shield, Users, Truck, Lock, ArrowRight } from "lucide-react";
 import AnimatedCounter from "@/components/AnimatedCounter";
 import CompanyWiseDeployments from "@/components/CompanyWiseDeployments";
 import GuardsByRegion from "@/components/GuardsByRegion";
@@ -327,22 +321,26 @@ export default function Home() {
               {
                 title: "Military Excellence",
                 desc: "Personnel from Pakistan's armed forces with proven expertise",
-                image: "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=800",
+                image:
+                  "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=800",
               },
               {
                 title: "Thorough Vetting",
                 desc: "Comprehensive screening and background verification process",
-                image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+                image:
+                  "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
               },
               {
                 title: "24/7 Availability",
                 desc: "Round-the-clock support and emergency response team",
-                image: "https://images.pexels.com/photos/3727465/pexels-photo-3727465.jpeg?auto=compress&cs=tinysrgb&w=800",
+                image:
+                  "https://images.pexels.com/photos/3727465/pexels-photo-3727465.jpeg?auto=compress&cs=tinysrgb&w=800",
               },
               {
                 title: "Customized Solutions",
                 desc: "Tailored security plans for your specific requirements",
-                image: "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
+                image:
+                  "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
               },
             ].map((item, i) => (
               <div

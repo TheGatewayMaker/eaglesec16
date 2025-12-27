@@ -1,4 +1,13 @@
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from "recharts";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+  Cell,
+} from "recharts";
 
 export default function GuardsByRegion() {
   const data = [
@@ -24,7 +33,10 @@ export default function GuardsByRegion() {
           <p className="font-black text-sm text-foreground">
             {payload[0].payload.name}
           </p>
-          <p className="font-bold text-sm" style={{ color: colors[data.indexOf(payload[0].payload)] }}>
+          <p
+            className="font-bold text-sm"
+            style={{ color: colors[data.indexOf(payload[0].payload)] }}
+          >
             {payload[0].value} Guards
           </p>
         </div>
@@ -67,8 +79,15 @@ export default function GuardsByRegion() {
               <YAxis
                 tick={{ fill: "#1f2937", fontSize: 12, fontWeight: 700 }}
               />
-              <Tooltip content={<CustomTooltip />} cursor={{ fill: "rgba(0, 0, 0, 0.05)" }} />
-              <Bar dataKey="guards" radius={[8, 8, 0, 0]} isAnimationActive={true}>
+              <Tooltip
+                content={<CustomTooltip />}
+                cursor={{ fill: "rgba(0, 0, 0, 0.05)" }}
+              />
+              <Bar
+                dataKey="guards"
+                radius={[8, 8, 0, 0]}
+                isAnimationActive={true}
+              >
                 {data.map((entry, index) => (
                   <Cell key={`cell-${index}`} fill={colors[index]} />
                 ))}
@@ -94,7 +113,10 @@ export default function GuardsByRegion() {
                   <p className="text-xs md:text-sm font-black text-foreground mb-2">
                     {item.name}
                   </p>
-                  <p className="text-lg md:text-2xl font-black" style={{ color: colors[index] }}>
+                  <p
+                    className="text-lg md:text-2xl font-black"
+                    style={{ color: colors[index] }}
+                  >
                     {item.guards}
                   </p>
                 </div>
