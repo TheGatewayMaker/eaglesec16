@@ -17,12 +17,13 @@ export default function Home() {
       <section className="bg-gradient-to-b from-background via-background to-background/95 text-foreground relative overflow-hidden py-12 sm:py-16 md:py-32 transition-colors duration-300">
         {/* Hero Background Image - Right Half Only */}
         <div
-          className="hidden md:block absolute right-0 top-20 w-[calc(50%+2rem)] h-[85%] -mr-6"
+          className="hidden md:block absolute right-0 top-0 w-[calc(50%+2rem)] h-full -mr-6"
           style={{
             backgroundImage:
-              "url('https://images.pexels.com/photos/3880225/pexels-photo-3880225.jpeg?auto=compress&cs=tinysrgb&w=800')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
+              "url('https://cdn.builder.io/api/v1/image/assets%2F151c661f676241159dc387d4f0557eb8%2Fc6fb9be958f544c6a63756ea3bde1005?format=webp&width=800')",
+            backgroundSize: "contain",
+            backgroundPosition: "right center",
+            backgroundRepeat: "no-repeat",
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-t from-background/30 via-background/10 to-transparent"></div>
@@ -90,7 +91,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50">
               <div className="relative overflow-hidden h-56 md:h-80 order-2 md:order-1">
                 <img
-                  src="https://images.pexels.com/photos/27517900/pexels-photo-27517900.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://i.ibb.co/1fF8J0kc/Screenshot-2025-12-27-at-10-18-51-PM.png"
                   alt="Elite bodyguard protection services"
                   className="w-full h-full object-cover"
                 />
@@ -120,7 +121,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50">
               <div className="relative overflow-hidden h-56 md:h-80">
                 <img
-                  src="https://images.pexels.com/photos/29656069/pexels-photo-29656069.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://i.ibb.co/xK0H4mRY/Screenshot-2025-12-27-at-10-17-59-PM.png"
                   alt="Professional security guards with tactical gear"
                   className="w-full h-full object-cover"
                 />
@@ -149,7 +150,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50">
               <div className="relative overflow-hidden h-56 md:h-80 order-2 md:order-1">
                 <img
-                  src="https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://i.ibb.co/MxQRyL7x/Screenshot-2025-12-27-at-10-19-22-PM.png"
                   alt="Professional mobile escort security services"
                   className="w-full h-full object-cover"
                 />
@@ -178,7 +179,7 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-border overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-accent/50">
               <div className="relative overflow-hidden h-56 md:h-80">
                 <img
-                  src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://i.ibb.co/1fHGWYGz/Screenshot-2025-12-27-at-10-20-06-PM.png"
                   alt="Advanced security equipment and surveillance systems"
                   className="w-full h-full object-cover"
                 />
@@ -352,25 +353,25 @@ export default function Home() {
                 title: "Military Excellence",
                 desc: "Personnel from Pakistan's armed forces with proven expertise",
                 image:
-                  "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=800",
+                  "https://i.ibb.co/bM3xPJ6k/Screenshot-2025-12-27-at-10-22-08-PM.png",
               },
               {
                 title: "Thorough Vetting",
                 desc: "Comprehensive screening and background verification process",
                 image:
-                  "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800",
+                  "https://i.ibb.co/JRBrY058/Screenshot-2025-12-27-at-10-21-06-PM.png",
               },
               {
                 title: "24/7 Availability",
                 desc: "Round-the-clock support and emergency response team",
                 image:
-                  "https://images.pexels.com/photos/3727465/pexels-photo-3727465.jpeg?auto=compress&cs=tinysrgb&w=800",
+                  "https://i.ibb.co/QvZZ1D9z/Screenshot-2025-12-27-at-10-21-43-PM.png",
               },
               {
                 title: "Customized Solutions",
                 desc: "Tailored security plans for your specific requirements",
                 image:
-                  "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
+                  "https://i.ibb.co/Dfm7BDgy/Screenshot-2025-12-27-at-10-20-35-PM.png",
               },
             ].map((item, i) => (
               <div
