@@ -242,7 +242,7 @@ export default function Home() {
       {/* Statistics Section */}
       <section className="py-12 sm:py-16 md:py-24 bg-gradient-to-b from-background to-background/95 transition-colors duration-300">
         <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             {/* Experience Card */}
             <div className="bg-card border border-border text-foreground p-8 md:p-12 text-center transition-all duration-300 hover:shadow-lg hover:border-accent/50 hover:bg-blue-50 dark:hover:bg-blue-950/40">
               <div className="mb-8 md:mb-10">
