@@ -113,10 +113,10 @@ export default function Home() {
                     Elite Bodyguards
                   </h3>
                   <p className="text-sm md:text-base font-bold leading-relaxed text-muted-foreground mb-6 flex-grow">
-                    Our SSG-trained specialists deliver executive-level protection
-                    with tactical expertise and discretion. Every bodyguard
-                    undergoes rigorous military training and psychological
-                    evaluation.
+                    Our SSG-trained specialists deliver executive-level
+                    protection with tactical expertise and discretion. Every
+                    bodyguard undergoes rigorous military training and
+                    psychological evaluation.
                   </p>
                   <Link
                     to="/services"
