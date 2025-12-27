@@ -371,13 +371,13 @@ export default function About() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/services"
-                className="bg-accent text-accent-foreground px-10 py-4 font-black text-lg rounded-none hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
+                className="bg-gradient-to-r from-accent to-blue-800 text-accent-foreground px-10 py-4 font-black text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 inline-block"
               >
                 Explore Our Services
               </Link>
               <Link
                 to="/contact"
-                className="border-2 border-accent text-accent px-10 py-4 font-black text-lg rounded-none hover:bg-accent/10 transition-all duration-300 inline-block"
+                className="border-2 border-accent text-accent px-10 py-4 font-black text-lg hover:bg-accent/10 transition-all duration-300 inline-block"
               >
                 Get in Touch
               </Link>
