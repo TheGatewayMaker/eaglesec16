@@ -13,22 +13,22 @@
   */
   :root {
     --background: 0 0% 97%;
-    --foreground: 0 0% 8%;
+    --foreground: 0 0% 3%;
 
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 8%;
+    --card-foreground: 0 0% 3%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 8%;
+    --popover-foreground: 0 0% 3%;
 
     --primary: 210 30% 20%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 35%;
+    --secondary: 140 45% 38%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 15% 85%;
-    --muted-foreground: 210 8% 45%;
+    --muted: 210 15% 75%;
+    --muted-foreground: 210 8% 35%;
 
     --accent: 210 70% 35%;
     --accent-foreground: 0 0% 100%;
@@ -36,11 +36,15 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 50 25% 96%;
 
-    --border: 210 20% 90%;
-    --input: 0 0% 96%;
+    --border: 210 20% 88%;
+    --input: 0 0% 94%;
     --ring: 210 70% 35%;
 
     --radius: 0rem;
+
+    --pk-green-dark: 140 62% 25%;
+    --pk-green-main: 140 55% 35%;
+    --pk-green-light: 140 50% 50%;
 
     --sidebar-background: 210 30% 15%;
 
