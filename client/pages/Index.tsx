@@ -456,23 +456,24 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
-            {/* Head Office */}
-            <div className="bg-gradient-to-br from-pk-green-main to-[#2d6b3d] text-white p-8 md:p-12 transition-all duration-300 hover:shadow-lg hover:bg-white hover:text-foreground group cursor-pointer border border-pk-green-main/20">
-              <p className="font-black text-xs uppercase tracking-widest mb-4 md:mb-6 group-hover:text-foreground transition-colors duration-300">
-                Head Office
-              </p>
-              <h3 className="text-4xl md:text-6xl font-black mb-6 md:mb-8 leading-tight group-hover:text-foreground transition-colors duration-300">
-                Islamabad
-              </h3>
-              <p className="text-base md:text-lg font-black group-hover:text-foreground transition-colors duration-300 leading-relaxed">
-                Central coordination and management hub
-              </p>
-            </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
+            {/* Left Side - Cities and Offices */}
+            <div className="flex flex-col space-y-8 md:space-y-10">
+              {/* Head Office */}
+              <div className="bg-gradient-to-br from-pk-green-main to-[#2d6b3d] text-white p-8 md:p-12 transition-all duration-300 hover:shadow-lg hover:bg-white hover:text-foreground group cursor-pointer border border-pk-green-main/20">
+                <p className="font-black text-xs uppercase tracking-widest mb-4 md:mb-6 group-hover:text-foreground transition-colors duration-300">
+                  Head Office
+                </p>
+                <h3 className="text-4xl md:text-6xl font-black mb-6 md:mb-8 leading-tight group-hover:text-foreground transition-colors duration-300">
+                  Islamabad
+                </h3>
+                <p className="text-base md:text-lg font-black group-hover:text-foreground transition-colors duration-300 leading-relaxed">
+                  Central coordination and management hub
+                </p>
+              </div>
 
-            {/* Regional Offices with City Buttons */}
-            <div className="flex flex-col">
-              <div className="mb-8 md:mb-10">
+              {/* Regional Offices with City Buttons */}
+              <div>
                 <p className="text-pk-green-main font-black text-xs uppercase tracking-widest mb-4 md:mb-6">
                   Regional Offices
                 </p>
@@ -510,6 +511,15 @@ export default function Home() {
                   <p>✓ 24/7 availability everywhere</p>
                 </div>
               </div>
+            </div>
+
+            {/* Right Side - Pakistan Map */}
+            <div className="flex items-center justify-center">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Facfe06c5cde64b46837eb142f7cf7313%2F2569c5f933e445229e02928b632df203?format=webp&width=800"
+                alt="Pakistan map showing Eagle Security locations"
+                className="w-full h-auto max-w-lg transition-all duration-300 hover:shadow-lg"
+              />
             </div>
           </div>
         </div>
