@@ -3,6 +3,7 @@ import { Shield, Users, Truck, Lock, ArrowRight } from "lucide-react";
 import AnimatedCounter from "@/components/AnimatedCounter";
 import CompanyWiseDeployments from "@/components/CompanyWiseDeployments";
 import GuardsByRegion from "@/components/GuardsByRegion";
+import TotalGuardsDeployed from "@/components/TotalGuardsDeployed";
 
 export default function Home() {
   return (
