@@ -118,7 +118,7 @@ export default function Home() {
               </div>
               <div className="relative z-10 p-5 sm:p-8 md:p-10">
                 <Users className="w-10 sm:w-12 h-10 sm:h-12 mb-3 sm:mb-4 text-accent" />
-                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-3 sm:mb-4 leading-tight text-foreground">
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-black mb-3 sm:mb-4 leading-tight">
                   Elite Bodyguards
                 </h3>
                 <p className="text-sm sm:text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
