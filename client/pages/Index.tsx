@@ -211,7 +211,7 @@ export default function Home() {
       </section>
 
       {/* Value Proposition Section */}
-      <section className="relative overflow-hidden py-8 sm:py-12 md:py-20 border-y border-border transition-colors duration-300">
+      <section className="relative overflow-hidden py-8 sm:py-12 md:py-20 border-y border-pk-green-main/30 transition-colors duration-300">
         <div className="absolute inset-0">
           <div
             className="absolute inset-0"
